@@ -65,7 +65,7 @@ iframeN.style.height =``;
 let style = document.getElementById('style');
 style.innerHTML= `body{
   
-  background:linear-gradient(#f9f9f9, #435762);
+  background:linear-gradient(#fdfacb, #46a5da);
   
 }`;
 
