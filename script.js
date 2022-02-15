@@ -34,7 +34,7 @@ function createInfoApp() {
     weather.innerHTML = `
      <h2>Погода на данный момент:</h2>
          <hr />
-    <iframe id="iframe"
+    <iframe id="iframeW"
     title="Inline Frame Example"
     width="300"
     height="500"
@@ -64,8 +64,12 @@ news.innerHTML=`
 </iframe>
  <hr />`;
 let iframe = document.getElementById('iframe');
-iframe.style.width = `100%`;
+iframe.style.width = `50%`;
 iframe.style.height =``;
+
+let iframeW = document.getElementById('iframeW');
+iframeW.style.width = `50%`;
+iframeW.style.height =``;
   
 let iframeN = document.getElementById('iframeN');
 iframeN.style.width = `100%`;
