@@ -64,11 +64,11 @@ news.innerHTML=`
 </iframe>
  <hr />`;
 let iframe = document.getElementById('iframe');
-iframe.style.width = `50%`;
+iframe.style.width = `75%`;
 iframe.style.height =``;
 
 let iframeW = document.getElementById('iframeW');
-iframeW.style.width = `50%`;
+iframeW.style.width = `75%`;
 iframeW.style.height =``;
   
 let iframeN = document.getElementById('iframeN');
