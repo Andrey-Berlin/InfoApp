@@ -32,7 +32,16 @@ function createInfoApp() {
     timedate.style.textAlign = `center`;
     let weather = document.getElementById('weather');
     weather.innerHTML = `
-     <h2>Погода:</h2>
+     <h2>Погода на данный момент:</h2>
+         <hr />
+    <iframe id="iframe"
+    title="Inline Frame Example"
+    width="300"
+    height="500"
+    src="https://andrey-berlin.github.io/weather-presently/">
+</iframe>
+<hr />
+     <h2>Погода по часам и по дням:</h2>
      <hr />
     <iframe id="iframe"
     title="Inline Frame Example"
